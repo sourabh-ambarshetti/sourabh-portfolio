@@ -12,3 +12,11 @@ dist/
 
 .DS_Store
 Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Test screenshots
+scratch/*.png
+scratch/*.jpg
