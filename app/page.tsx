@@ -572,7 +572,7 @@ export default function Home() {
                     {copiedEmail ? <Check size={16} className="text-emerald-400" /> : <Copy size={16} />}
                     {copiedEmail ? "Email Copied!" : "Copy Email"}
                   </button>
-                  <a className="btn" href="https://www.linkedin.com/in/sourabh-a-b5b64b150" target="_blank" rel="noopener noreferrer">
+                  <a className="btn" href="https://www.linkedin.com/in/sourabh-ambarshetti" target="_blank" rel="noopener noreferrer">
                     <Linkedin size={16} /> LinkedIn
                   </a>
                 </div>
@@ -1143,7 +1143,7 @@ export default function Home() {
                 </button>
                 <a
                   className="btn"
-                  href="https://www.linkedin.com/in/sourabh-a-b5b64b150"
+                  href="https://www.linkedin.com/in/sourabh-ambarshetti"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
