@@ -1162,7 +1162,17 @@ export default function Home() {
       <footer className="footer">
         <div className="container footer-inner">
           <span>© {new Date().getFullYear()} Sourabh Ambarshetti. All rights reserved.</span>
-          <span>Senior Full Stack Engineer · Distributed Systems · Applied AI</span>
+          <span>
+            <a
+              href="https://sourabh-portfolio-beta.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "var(--text-muted)", textDecoration: "none" }}
+            >
+              sourabh-portfolio-beta.vercel.app
+            </a>
+            {" "}· Senior Full Stack & Applied AI
+          </span>
         </div>
       </footer>
     </>
