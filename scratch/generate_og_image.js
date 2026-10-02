@@ -310,7 +310,8 @@ async function generateOG() {
 
   const browser = await chromium.launch();
   const page = await browser.newPage({
-    viewport: { width: 1200, height: 630 }
+    viewport: { width: 1200, height: 630 },
+    deviceScaleFactor: 2
   });
 
   await page.setContent(html, { waitUntil: 'networkidle' });
