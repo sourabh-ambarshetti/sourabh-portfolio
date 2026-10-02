@@ -24,7 +24,24 @@ export const metadata: Metadata = {
     title: "Sourabh Ambarshetti | Senior Full Stack Engineer & Applied AI",
     description:
       "7+ years architecting high-scale enterprise backends and Applied AI pipelines for global enterprise clients.",
+    url: "https://sourabh-portfolio-beta.vercel.app",
+    siteName: "Sourabh Ambarshetti Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Sourabh Ambarshetti - Senior Full Stack & Backend Engineer"
+      }
+    ],
     type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourabh Ambarshetti | Senior Full Stack Engineer & Applied AI",
+    description:
+      "7+ years architecting high-scale enterprise backends and Applied AI pipelines for global enterprise clients.",
+    images: ["/og-image.png"]
   }
 };
 
