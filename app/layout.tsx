@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Sourabh Ambarshetti | Senior Full Stack Engineer & Forward Deployed AI",
   description:
     "Portfolio of Sourabh Ambarshetti — Senior Full Stack Engineer with 7+ years architecting high-throughput backend systems, enterprise SaaS (Lenovo, HP, Dell), and Applied AI architectures.",
-  metadataBase: new URL("https://sourabhambarshetti.dev"),
+  metadataBase: new URL("https://sourabh-portfolio-beta.vercel.app"),
   keywords: [
     "Sourabh Ambarshetti",
     "Senior Full Stack Engineer",
