@@ -1,46 +1,26 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const description =
+  "Senior Full Stack Engineer in Pune with 7+ years building Angular and Node.js products in enterprise SaaS and fintech.";
+
 export const metadata: Metadata = {
-  title: "Sourabh Ambarshetti | Senior Full Stack Engineer & Forward Deployed AI",
-  description:
-    "Portfolio of Sourabh Ambarshetti — Senior Full Stack Engineer with 7+ years architecting high-throughput backend systems, enterprise SaaS (Lenovo, HP, Dell), and Applied AI architectures.",
+  title: "Sourabh Ambarshetti · Senior Full Stack Engineer",
+  description,
   metadataBase: new URL("https://sourabh-portfolio-beta.vercel.app"),
-  keywords: [
-    "Sourabh Ambarshetti",
-    "Senior Full Stack Engineer",
-    "Forward Deployed Engineer",
-    "Backend Engineer",
-    "Node.js",
-    "TypeScript",
-    "Applied AI",
-    "RAG",
-    "FastAPI",
-    "Enterprise SaaS",
-    "Pune"
-  ],
   authors: [{ name: "Sourabh Ambarshetti" }],
   openGraph: {
-    title: "Sourabh Ambarshetti | Senior Full Stack Engineer & Applied AI",
-    description:
-      "7+ years architecting high-scale enterprise backends and Applied AI pipelines for global enterprise clients.",
+    title: "Sourabh Ambarshetti · Senior Full Stack Engineer",
+    description,
     url: "https://sourabh-portfolio-beta.vercel.app",
-    siteName: "Sourabh Ambarshetti Portfolio",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Sourabh Ambarshetti - Senior Full Stack & Backend Engineer"
-      }
-    ],
+    siteName: "Sourabh Ambarshetti",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Sourabh Ambarshetti" }],
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sourabh Ambarshetti | Senior Full Stack Engineer & Applied AI",
-    description:
-      "7+ years architecting high-scale enterprise backends and Applied AI pipelines for global enterprise clients.",
+    title: "Sourabh Ambarshetti · Senior Full Stack Engineer",
+    description,
     images: ["/og-image.png"]
   }
 };

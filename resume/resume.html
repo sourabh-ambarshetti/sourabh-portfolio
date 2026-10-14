@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sourabh Ambarshetti – Senior Full Stack Engineer</title>
+<style>
+  @page { size: A4; margin: 10mm 13mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #1f2937;
+    font-size: 9.3pt;
+    line-height: 1.38;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  header { border-bottom: 2px solid #1e3a5f; padding-bottom: 7px; margin-bottom: 9px; }
+  h1 { font-size: 20pt; font-weight: 700; color: #111827; letter-spacing: -0.01em; }
+  .headline { font-size: 10.5pt; color: #1e3a5f; font-weight: 600; margin: 1px 0 4px; }
+  .contact { font-size: 8.9pt; color: #4b5563; }
+  .contact span { white-space: nowrap; }
+  .contact span + span::before { content: "·"; margin: 0 6px; color: #9ca3af; }
+
+  section { margin-bottom: 8px; }
+  h2 {
+    font-size: 9.8pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: #1e3a5f; border-bottom: 1px solid #d1d5db; padding-bottom: 2px; margin-bottom: 5px;
+  }
+  p { color: #374151; }
+
+  .skills div { margin-bottom: 1.5px; }
+  .skills b { color: #111827; font-weight: 600; }
+
+  .role { margin-bottom: 7px; }
+  .role-head { display: flex; justify-content: space-between; align-items: baseline; }
+  .role-title { font-weight: 700; color: #111827; font-size: 10pt; }
+  .role-org { color: #4b5563; }
+  .dates { color: #4b5563; font-size: 8.9pt; white-space: nowrap; }
+
+  ul { padding-left: 14px; margin-top: 2px; }
+  li { margin-bottom: 2px; color: #374151; }
+  li b { color: #111827; font-weight: 600; }
+
+  .sub { margin: 4px 0 0; font-weight: 600; color: #111827; font-size: 9.3pt; }
+  .meta { color: #6b7280; font-weight: 400; }
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Sourabh Ambarshetti</h1>
+  <div class="headline">Senior Full Stack Engineer · Angular · Node.js · NestJS · TypeScript</div>
+  <div class="contact">
+    <span>Pune, India</span>
+    <span>+91 80874 34976</span>
+    <span><a href="mailto:sourabhambarshetti@gmail.com">sourabhambarshetti@gmail.com</a></span>
+  </div>
+  <div class="contact">
+    <span><a href="https://www.linkedin.com/in/sourabh-ambarshetti">linkedin.com/in/sourabh-ambarshetti</a></span>
+    <span><a href="https://github.com/sourabh-ambarshetti">github.com/sourabh-ambarshetti</a></span>
+    <span><a href="https://sourabh-portfolio-beta.vercel.app">sourabh-portfolio-beta.vercel.app</a></span>
+  </div>
+</header>
+
+<section>
+  <h2>Summary</h2>
+  <p>
+    Senior Full Stack Engineer with 7+ years building web and mobile applications in enterprise SaaS and fintech.
+    Designed a multi-tenant pricing platform used by 10+ enterprise clients including Lenovo, HP and Dell, and built
+    a loan origination app with Aadhaar, KYC and credit bureau integrations. Strong in Angular, Node.js, SQL databases
+    and performance troubleshooting. Currently building LLM features (RAG, tool calling) into full-stack applications.
+  </p>
+</section>
+
+<section class="skills">
+  <h2>Skills</h2>
+  <div><b>Frontend:</b> Angular (12–18), TypeScript, JavaScript, RxJS, Ionic, Angular Material, HTML, CSS</div>
+  <div><b>Backend:</b> Node.js, NestJS, Express.js, LoopBack 3, REST APIs, microservices, third-party API integration</div>
+  <div><b>Data:</b> MySQL, MS SQL Server, MongoDB, Redis, TypeORM</div>
+  <div><b>AI integration:</b> LLM APIs (Gemini), RAG, vector search (Qdrant), embeddings, function calling</div>
+  <div><b>Testing &amp; DevOps:</b> Jest, Jasmine/Karma, Docker, AWS, CI/CD, Git</div>
+  <div><b>Practices:</b> multi-tenant SaaS, rule engines, code reviews, mentoring, Agile/Scrum, production support</div>
+</section>
+
+<section>
+  <h2>Experience</h2>
+
+  <div class="role">
+    <div class="role-head">
+      <div><span class="role-title">Senior Full Stack Developer</span> <span class="role-org">— PyxTech Pvt. Ltd., Pune</span></div>
+      <span class="dates">Oct 2024 – Present</span>
+    </div>
+    <ul>
+      <li>Build PyxFMV, PyxTrade and PyxQuote (Angular 18, Node.js, MySQL): pricing, trading and vendor bidding platforms for the US refurbished electronics market.</li>
+      <li>Designed the <b>multi-tenant SaaS architecture</b> serving <b>10+ enterprise clients</b> including Lenovo, HP and Dell, with tenant-level data isolation.</li>
+      <li>Re-architected the Bulk Quote Engine with stream-based chunking and worker pools: processing time for 1,200+ row vendor files dropped from <b>~15 to 3.4 minutes (−77%)</b>, memory stays <b>under 250 MB</b>, and out-of-memory crashes stopped. Root-caused a spreadsheet extent bug creating 3,496 empty chunks and added bounds checks.</li>
+      <li>Delivered pricing, bidding, shipping and MRB dispute workflows across 3+ user roles; added Redis caching for hot API and database reads.</li>
+      <li>Mentor 3+ developers and work directly with business stakeholders on requirements and releases.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <div><span class="role-title">Senior Full Stack Developer</span> <span class="role-org">— CodeNgine Technologies Pvt. Ltd., Pune</span></div>
+      <span class="dates">Sep 2023 – Oct 2024</span>
+    </div>
+    <ul>
+      <li>Built modular Angular and Node.js applications with REST services on Express.js and LoopBack 3 (MongoDB, MySQL); improved key page load and API response times by <b>20%+</b>.</li>
+      <li>Led code reviews for a team of <b>5+ developers</b> and introduced shared design patterns and coding standards.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <div><span class="role-title">Senior Software Engineer</span> <span class="role-org">— Primus Techsystems Pvt. Ltd., Pune</span></div>
+      <span class="dates">Jun 2019 – Sep 2023</span>
+    </div>
+    <ul>
+      <li>Joined as an intern (Jun 2019) and grew to Senior Software Engineer, delivering <b>8+ client projects</b> end to end in fintech, manufacturing and construction, working directly with clients on requirements and releases.</li>
+    </ul>
+    <div class="sub">Loan Origination System <span class="meta">— Arthsetu Ventures · Angular 14, Ionic 6, Node.js, MySQL</span></div>
+    <ul>
+      <li>Built a loan app with Aadhaar, KYC and credit bureau verification and a configurable eligibility rule engine; cut verification turnaround from <b>48+ hours to under 15 minutes</b>. Published on Play Store and App Store.</li>
+    </ul>
+    <div class="sub">Dealer Management System <span class="meta">— Hitachi Astemo · Angular 12, Node.js, MS SQL</span></div>
+    <ul>
+      <li>Built inventory, dealer performance and sales analytics modules used by <b>200+ dealers</b>, cutting inventory allocation discrepancies by <b>92%</b>; added SMS notifications. Also built the companion Ionic product catalogue app (Android, iOS).</li>
+    </ul>
+    <div class="sub">Construction Management System <span class="meta">— SCON Projects · Angular 14, Node.js, MS SQL</span></div>
+    <ul>
+      <li>Built from scratch: project progress, site status, KYC integration and budget tracking.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Project</h2>
+  <div class="role-head">
+    <div><span class="role-title">MeridianPulse — AI workplace assistant</span> <span class="role-org">· NestJS, Angular, MySQL, Qdrant, Gemini, Docker</span></div>
+    <span class="dates">2026</span>
+  </div>
+  <ul>
+    <li>Answers HR/IT policy questions with RAG: chunking, embeddings, Qdrant vector search and source citations.</li>
+    <li>Uses LLM function calling to run backend actions (leave balance, expense status, helpdesk tickets) on MySQL via TypeORM.</li>
+    <li>Input guardrails (PII masking, prompt-injection checks), model fallback on rate limits, per-request token and cost tracking.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <p><b>Master of Computer Applications (MCA)</b>, 2020 · <b>Bachelor of Computer Applications (BCA)</b>, 2017</p>
+</section>
+
+</body>
+</html>
