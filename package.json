@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test:mobile": "node scratch/test_mobile_responsiveness.js"
+    "resume": "node resume/build-pdf.mjs"
   },
   "dependencies": {
     "lucide-react": "0.468.0",
