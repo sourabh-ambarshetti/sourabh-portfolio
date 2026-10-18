@@ -2,13 +2,13 @@
   color-scheme: dark;
   --bg: #0a0d14;
   --bg-raised: #10141e;
-  --surface: #141925;
-  --surface-2: #1a2030;
-  --border: #232a3b;
-  --border-strong: #323b52;
-  --text: #eef1f7;
-  --muted: #a3acc0;
-  --faint: #737d94;
+  --surface: #161c2a;
+  --surface-2: #1e2536;
+  --border: #2b3347;
+  --border-strong: #3c4660;
+  --text: #f4f6fb;
+  --muted: #c8cfdc;
+  --faint: #959fb4;
   --accent: #7aa2ff;
   --accent-strong: #4f7dff;
   --accent-soft: rgba(122, 162, 255, 0.12);
@@ -283,8 +283,8 @@ h1 span {
 
 .stats dd {
   margin-top: 2px;
-  color: var(--faint);
-  font-size: 0.88rem;
+  color: var(--muted);
+  font-size: 0.9rem;
   line-height: 1.4;
 }
 
@@ -374,8 +374,8 @@ h3 {
 
 .story dt {
   margin-top: 18px;
-  color: var(--faint);
-  font-size: 0.75rem;
+  color: var(--accent);
+  font-size: 0.76rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -399,9 +399,9 @@ h3 {
 }
 
 .visual-label {
-  color: var(--faint);
+  color: var(--muted);
   font-family: var(--mono);
-  font-size: 0.75rem;
+  font-size: 0.76rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
@@ -549,8 +549,8 @@ h3 {
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--surface-2);
-  color: var(--muted);
-  font-size: 0.8rem;
+  color: var(--text);
+  font-size: 0.82rem;
 }
 
 /* Project */
