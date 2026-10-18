@@ -79,7 +79,7 @@
   <div><b>Backend:</b> Node.js, NestJS, Express.js, LoopBack 3, REST APIs, microservices, third-party API integration</div>
   <div><b>Data:</b> MySQL, MS SQL Server, MongoDB, Redis, TypeORM</div>
   <div><b>AI integration:</b> LLM APIs (Gemini), RAG, vector search (Qdrant), embeddings, function calling</div>
-  <div><b>Testing &amp; DevOps:</b> Jest, Jasmine/Karma, Docker, AWS, CI/CD, Git</div>
+  <div><b>DevOps &amp; Tools:</b> Docker, AWS, CI/CD, Git</div>
   <div><b>Practices:</b> multi-tenant SaaS, rule engines, code reviews, mentoring, Agile/Scrum, production support</div>
 </section>
 
@@ -140,7 +140,7 @@
   <ul>
     <li>NestJS, Angular, MySQL, Qdrant, Gemini: RAG over HR/IT policies with cited sources, plus LLM function calling for actions on MySQL (leave balance, expense claims, helpdesk tickets).</li>
     <li>Server-side access control (JWT): tools act only on the signed-in employee, so prompts can't reach other employees' data. PII masking and prompt-injection guardrails.</li>
-    <li>Unit tests (Vitest) and a live evaluation suite scoring <b>14/14</b> on tool use, access control, policy answers and guardrails.</li>
+    <li>Wrote an evaluation script that signs in as different employees and checks answers, tool calls and cross-employee data leaks.</li>
   </ul>
 </section>
 

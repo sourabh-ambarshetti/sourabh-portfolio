@@ -104,7 +104,7 @@ const skills = [
   { label: "Backend", items: ["Node.js", "NestJS", "Express.js", "REST APIs", "Microservices"] },
   { label: "Data", items: ["MySQL", "MS SQL Server", "MongoDB", "Redis"] },
   { label: "AI integration", items: ["LLM APIs", "RAG", "Qdrant", "Function calling"] },
-  { label: "Tooling", items: ["Jest", "Jasmine/Karma", "Docker", "AWS", "CI/CD", "Git"] }
+  { label: "Tooling", items: ["Docker", "AWS", "CI/CD", "Git"] }
 ];
 
 function Flow({ steps }: { steps: string[] }) {
@@ -251,7 +251,7 @@ export default function Home() {
                   decides whose data, from the signed-in user&apos;s token. Asking about another employee returns nothing.
                 </li>
                 <li>Input guardrails for PII and prompt injection, model fallback on rate limits, and per-request token and cost tracking.</li>
-                <li>Unit tests plus a live evaluation suite: 14/14 on tool use, access control, policy answers and guardrails.</li>
+                <li>An evaluation script that signs in as different employees and checks answers, tool calls and cross-employee data leaks.</li>
               </ul>
               <ul className="tags">
                 {["NestJS", "Angular", "MySQL", "Qdrant", "Gemini API", "Docker"].map((s) => <li key={s}>{s}</li>)}
