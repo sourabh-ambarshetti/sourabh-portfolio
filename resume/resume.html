@@ -10,7 +10,7 @@
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     color: #1f2937;
     font-size: 9.3pt;
-    line-height: 1.38;
+    line-height: 1.34;
   }
   a { color: inherit; text-decoration: none; }
 
@@ -68,8 +68,8 @@
   <p>
     Senior Full Stack Engineer with 7+ years building web and mobile applications in enterprise SaaS and fintech.
     Designed a multi-tenant pricing platform used by 10+ enterprise clients including Lenovo, HP and Dell, and built
-    a loan origination app with Aadhaar, KYC and credit bureau integrations. Strong in Angular, Node.js, SQL databases
-    and performance troubleshooting. Currently building LLM features (RAG, tool calling) into full-stack applications.
+    a loan origination app with Aadhaar, KYC and credit bureau integrations. Currently building LLM features (RAG,
+    tool calling) into full-stack applications.
   </p>
 </section>
 
@@ -127,23 +127,20 @@
     <ul>
       <li>Built inventory, dealer performance and sales analytics modules used by <b>200+ dealers</b>, cutting inventory allocation discrepancies by <b>92%</b>; added SMS notifications. Also built the companion Ionic product catalogue app (Android, iOS).</li>
     </ul>
-    <div class="sub">Construction Management System <span class="meta">— SCON Projects · Angular 14, Node.js, MS SQL</span></div>
-    <ul>
-      <li>Built from scratch: project progress, site status, KYC integration and budget tracking.</li>
-    </ul>
+    <div class="sub">Construction Management System <span class="meta">— SCON Projects · Angular 14, Node.js, MS SQL · progress, KYC and budget tracking</span></div>
   </div>
 </section>
 
 <section>
   <h2>Project</h2>
   <div class="role-head">
-    <div><span class="role-title">MeridianPulse — AI workplace assistant</span> <span class="role-org">· NestJS, Angular, MySQL, Qdrant, Gemini, Docker</span></div>
-    <span class="dates">2026</span>
+    <div><span class="role-title">MeridianPulse — AI workplace assistant</span></div>
+    <span class="dates"><a href="https://github.com/sourabh-ambarshetti/meridian-pulse">github.com/sourabh-ambarshetti/meridian-pulse</a></span>
   </div>
   <ul>
-    <li>Answers HR/IT policy questions with RAG: chunking, embeddings, Qdrant vector search and source citations.</li>
-    <li>Uses LLM function calling to run backend actions (leave balance, expense status, helpdesk tickets) on MySQL via TypeORM.</li>
-    <li>Input guardrails (PII masking, prompt-injection checks), model fallback on rate limits, per-request token and cost tracking.</li>
+    <li>NestJS, Angular, MySQL, Qdrant, Gemini: RAG over HR/IT policies with cited sources, plus LLM function calling for actions on MySQL (leave balance, expense claims, helpdesk tickets).</li>
+    <li>Server-side access control (JWT): tools act only on the signed-in employee, so prompts can't reach other employees' data. PII masking and prompt-injection guardrails.</li>
+    <li>Unit tests (Vitest) and a live evaluation suite scoring <b>14/14</b> on tool use, access control, policy answers and guardrails.</li>
   </ul>
 </section>
 

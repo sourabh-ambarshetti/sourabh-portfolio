@@ -3,7 +3,7 @@ import { ArrowUpRight, FileText, Github, Linkedin, Mail, MapPin } from "lucide-r
 const EMAIL = "sourabhambarshetti@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/sourabh-ambarshetti";
 const GITHUB = "https://github.com/sourabh-ambarshetti";
-const MERIDIAN_REPO = GITHUB; // TODO: point to the MeridianPulse repo once it is public
+const MERIDIAN_REPO = "https://github.com/sourabh-ambarshetti/meridian-pulse";
 const RESUME = "/Sourabh_Ambarshetti_Resume.pdf";
 
 const stats = [
@@ -232,7 +232,7 @@ export default function Home() {
         </section>
 
         <section id="project" className="section wrap">
-          <p className="kicker">Side project · In progress</p>
+          <p className="kicker">Side project · Open source</p>
           <h2>MeridianPulse: an AI assistant for employees</h2>
           <div className="project">
             <div>
@@ -246,7 +246,12 @@ export default function Home() {
               <ul className="points">
                 <li>Document chunking, embeddings and vector search in Qdrant, with source citations in the answer.</li>
                 <li>LLM function calling into NestJS services backed by MySQL and TypeORM.</li>
+                <li>
+                  Access control the model can&apos;t bypass: the model picks which tool to run, but the server
+                  decides whose data, from the signed-in user&apos;s token. Asking about another employee returns nothing.
+                </li>
                 <li>Input guardrails for PII and prompt injection, model fallback on rate limits, and per-request token and cost tracking.</li>
+                <li>Unit tests plus a live evaluation suite: 14/14 on tool use, access control, policy answers and guardrails.</li>
               </ul>
               <ul className="tags">
                 {["NestJS", "Angular", "MySQL", "Qdrant", "Gemini API", "Docker"].map((s) => <li key={s}>{s}</li>)}
@@ -261,7 +266,7 @@ export default function Home() {
               <div className="arch-arrow" />
               <div className="arch-group">
                 <p className="visual-label">NestJS API</p>
-                <div className="arch-node">Guardrails: PII + injection</div>
+                <div className="arch-node">Auth guard → guardrails: PII + injection</div>
                 <div className="arch-split">
                   <div className="arch-node">RAG retrieval</div>
                   <div className="arch-node">Tool calls</div>
